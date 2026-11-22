@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tidebound Duel — a 1v1 card battler</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #082a3f; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+  canvas { width: min(1280px, 100vw); height: auto; display: block; background: #0a2e4a; }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="800"></canvas>
+<script src="src/cards.js"></script>
+<script src="src/state.js"></script>
+<script src="src/ai.js"></script>
+<script src="src/render.js"></script>
+<script src="src/audio.js"></script>
+<script src="src/main.js"></script>
+</body>
+</html>
